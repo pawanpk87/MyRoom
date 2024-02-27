@@ -1,0 +1,29 @@
+.myroom-admin-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboard {
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+  background: #eff1f3;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.statisticCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.todayStatisticCards {
+  display: flex;
+  flex-direction: flex-start;
+}

@@ -1,0 +1,12 @@
+.roomBookingChart {
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+}
+
+.roomBookingChart .header {
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+}

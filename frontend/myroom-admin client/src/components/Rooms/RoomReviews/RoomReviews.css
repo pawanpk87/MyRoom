@@ -1,0 +1,11 @@
+.description_card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.description_card .rating_reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

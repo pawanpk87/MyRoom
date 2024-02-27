@@ -1,0 +1,9 @@
+.bookingRequest {
+  width: 90%;
+  height: 100vh;
+  overflow-x: scroll;
+  padding: 100px 50px 10px 50px;
+  margin: auto;
+  border-radius: 10px;
+  background: white;
+}

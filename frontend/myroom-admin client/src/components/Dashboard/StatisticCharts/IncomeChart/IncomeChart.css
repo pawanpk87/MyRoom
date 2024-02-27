@@ -1,0 +1,13 @@
+.incomeChartDiv {
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+}
+
+.incomeChartDiv .header {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

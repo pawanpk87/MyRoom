@@ -1,0 +1,9 @@
+.ratingBox {
+  width: fit-content;
+  padding: 2px 10px;
+  border-radius: 4px;
+  background: rgb(82, 82, 237);
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 600;
+}

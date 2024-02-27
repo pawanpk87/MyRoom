@@ -1,0 +1,36 @@
+.guestslist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 5px 20px 5px 20px;
+  font-size: medium;
+}
+
+.guestslist .adults {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  gap: 30px;
+}
+
+.guestslist .adults .count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.guestslist .adults .count .icon {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 6px;
+}
+
+.guestslist .adults .count .icon:hover {
+  border: 1px solid black;
+}

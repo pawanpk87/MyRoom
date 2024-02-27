@@ -1,0 +1,12 @@
+.roomDetailsCard {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.roomDetailsCard .roomDetailsCardHeader {
+  font-size: x-large;
+  font-weight: bold;
+}

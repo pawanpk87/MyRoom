@@ -1,0 +1,30 @@
+.TopBookedRoomChart {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+}
+
+.TopBookedRoomChart .header {
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.TopBookedRoomChart .content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.popBookedRoomChartRoomCard {
+  display: flex;
+  flex-direction: row;
+}
+
+.popBookedRoomChartRoomCard .roomName {
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

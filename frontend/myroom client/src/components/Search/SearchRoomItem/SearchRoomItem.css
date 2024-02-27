@@ -1,0 +1,73 @@
+.searchRoomItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1.5px solid gainsboro;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
+
+.searchRoomItem .details {
+  width: 80%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.searchRoomItem .details .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.searchRoomItem .details .ratings {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.searchRoomItem .details .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.searchRoomItem .details .price #amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+.searchRoomItem .details .price .action {
+  display: flex;
+}
+
+.searchRoomItem .details .price .action .viewDetailsBtn {
+  padding: 4px 10px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  margin: 2px;
+  cursor: pointer;
+}
+.searchRoomItem .details .price .action .viewDetailsBtn:hover {
+  border: 1px solid black;
+}
+
+.searchRoomItem .details .price .action .bookNowBtn {
+  padding: 4px 10px;
+  background: rgb(85, 85, 247);
+  color: whitesmoke;
+  border-radius: 5px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.searchRoomItem .details .price .action .bookNowBtn:hover {
+  background: rgb(19, 19, 241);
+}

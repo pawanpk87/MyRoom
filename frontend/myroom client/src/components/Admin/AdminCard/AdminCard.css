@@ -1,0 +1,27 @@
+.admin {
+  width: fit-content;
+  padding: 20px;
+  border: 1.5px solid rgb(235, 235, 235);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.admin .admdetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.admin .admdetails .name {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.admin .admdetails .list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: medium;
+  font-weight: bold;
+}

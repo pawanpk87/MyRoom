@@ -1,0 +1,36 @@
+.searchRoom .sidebar {
+  position: sticky;
+  top: 80px;
+  width: 22%;
+  display: inline-block;
+  height: calc(100vh - 80px);
+  vertical-align: top;
+  overflow-y: scroll;
+  border-right: 2px solid rgb(225, 222, 222);
+  padding: 20px;
+}
+
+.searchRoom .sidebar .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.searchRoom .sidebar .content .search-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+#cost {
+  padding: 5px;
+  background: rgb(219, 218, 218);
+  border-radius: 5px;
+}
+
+.searchRoom .sidebar .content .filterCheckbox div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

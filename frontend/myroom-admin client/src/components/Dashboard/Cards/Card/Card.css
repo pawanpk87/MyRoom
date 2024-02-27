@@ -1,0 +1,29 @@
+.dashboardCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  width: fit-content;
+  height: fit-content;
+
+  padding: 10px;
+  border-radius: 5px;
+  background: white;
+  border: 0.5px solid rgb(215, 215, 215);
+
+  font-size: small;
+  font-weight: bold;
+}
+
+.dashboardCard .content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px;
+}
+
+.dashboardCard .icon {
+  height: 30px;
+}

@@ -1,0 +1,39 @@
+server:
+  port: 8083
+
+services:
+  organization-service:
+    id: ORGANIZATION-SERVICE
+    v1:
+      api: /api/v1/organization-service
+      name: ORGANIZATION-SERVICE_V1
+
+  organization-pay:
+    id: ORGANIZATION-PAY-SERVICE
+    v1:
+      api: /api/v1/organizationpay
+      name: ORGANIZATION-PAY-SERVICE_V1
+
+spring:
+  application:
+    name: ONBOARDING-SERVICE
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/myroom
+    username: root
+    password: password
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+
+  kafka:
+    bootstrap-servers: localhost:9092
+
+
+# Eureka Configuration
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

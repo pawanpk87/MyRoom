@@ -1,0 +1,30 @@
+main {
+  width: 80%;
+  height: 70vh;
+  margin: 100px;
+}
+
+.homeMain {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchRoomBox {
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutText {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

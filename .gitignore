@@ -1,0 +1,64 @@
+node_modules/
+
+HELP.md
+.gradle
+
+# IDE-specific files
+**/.apt_generated
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings
+**/.springBeans
+**/.sts4-cache
+**/bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# IntelliJ IDEA
+**/.idea
+*.iws
+*.iml
+*.ipr
+**/out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# VS Code
+**/.vscode/
+
+# Build directory with exclusion
+build/
+!gradle/wrapper/gradle-wrapper.jar
+Explanation:
+
+
+
+# dependencies
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# vercel
+.vercel

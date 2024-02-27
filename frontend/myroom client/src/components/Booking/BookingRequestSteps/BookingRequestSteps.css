@@ -1,0 +1,27 @@
+.steps {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.steps-form {
+  padding: 50px;
+}
+
+.steps-form .stepDiv {
+  position: relative;
+  padding: 40px;
+  height: 80%;
+  /* border: 1.5px solid gainsboro;
+  border-radius: 10px; */
+  margin: auto;
+}
+
+.steps-form .stepDiv .button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+}

@@ -1,0 +1,45 @@
+.bookingData {
+  width: 80%;
+  padding: 100px 50px 10px 50px;
+  margin: auto;
+}
+
+.bookingDetails {
+  border: 2px solid rgb(238, 238, 238);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bookingData .checkInOutTypeDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.bookingData .checkInOutTypeDiv .type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.bookingData .checkInOutTypeDiv .type div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.bookingData .statusAndContactDetaisDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 100px;
+  margin: 20px;
+}

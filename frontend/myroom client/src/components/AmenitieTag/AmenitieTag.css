@@ -1,0 +1,9 @@
+.amentieTag {
+  padding: 2px 5px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  width: fit-content;
+  display: inline-block;
+  margin: 2px;
+  font-size: small;
+}

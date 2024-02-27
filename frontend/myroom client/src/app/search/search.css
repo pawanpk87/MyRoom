@@ -1,0 +1,35 @@
+.searchRoom {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+}
+
+.searchRoom .searchList {
+  align-items: center;
+  margin: auto;
+  width: 78%;
+  height: 100%;
+  display: inline-block;
+  scroll-behavior: auto;
+  padding: 40px;
+}
+
+.searchRoom .searchList .items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#searchLoader {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+}
+
+.searchRoom .searchList .pagination {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}

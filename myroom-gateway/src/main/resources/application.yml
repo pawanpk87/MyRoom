@@ -1,0 +1,87 @@
+server:
+  port: 8080
+
+services:
+  auth-service:
+    id: AUTH-SERVER
+    v1:
+      api: /api/v1/auth
+      name: AUTH-SERVER_V1
+
+spring:
+  application:
+    name: MY_ROOM-GATEWAY
+
+  cloud:
+    gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+
+      routes:
+        - id: AUTH-SERVER
+          uri: lb://AUTH-SERVER
+          predicates:
+            - Path=/api/v1/auth/**
+          filters:
+            - AuthenticationFilter
+
+        - id: BOOKING-SERVICE
+          uri: lb://BOOKING-SERVICE
+          predicates:
+            - Path=/api/v1/booking-service/**
+          filters:
+            - AuthenticationFilter
+
+        - id: ROOM-SERVICE
+          uri: lb://ROOM-SERVICE
+          predicates:
+            - Path=/api/v1/room-service/**
+          filters:
+            - AuthenticationFilter
+
+        - id: ORGANIZATION-SERVICE
+          uri: lb://ORGANIZATION-SERVICE
+          predicates:
+            - Path=/api/v1/organization-service/**
+          filters:
+            - AuthenticationFilter
+
+        - id: ONBOARDING-SERVICE
+          uri: lb://ONBOARDING-SERVICE
+          predicates:
+            - Path=/api/v1/onboarding/**
+          filters:
+            - AuthenticationFilter
+
+        - id: ORGANIZATION-PAY-SERVICE
+          uri: lb://ORGANIZATION-PAY-SERVICE
+          predicates:
+            - Path=/api/v1/organizationpay/**
+          filters:
+            - AuthenticationFilter
+
+        - id: PAYMENT-SERVICE
+          uri: lb://PAYMENT-SERVICE
+          predicates:
+            - Path=/api/v1/payment-service/**
+          filters:
+            - AuthenticationFilter
+
+        - id: REVIEW-SERVICE
+          uri: lb://REVIEW-SERVICE
+          predicates:
+            - Path=/api/v1/review-service/**
+          filters:
+            - AuthenticationFilter
+
+# Eureka Configuration
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

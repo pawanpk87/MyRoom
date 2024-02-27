@@ -1,0 +1,13 @@
+.reviewListItems {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.userReview {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 20% 75%;
+  gap: 5%;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}

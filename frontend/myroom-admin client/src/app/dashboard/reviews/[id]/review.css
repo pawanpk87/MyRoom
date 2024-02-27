@@ -1,0 +1,7 @@
+.reviewdata {
+  height: 100vh;
+  overflow-x: scroll;
+  padding: 10px 50px 10px 50px;
+  border-radius: 10px;
+  background: white;
+}

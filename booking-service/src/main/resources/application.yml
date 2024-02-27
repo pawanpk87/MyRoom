@@ -1,0 +1,59 @@
+server:
+  port: 8082
+
+services:
+  booking-service:
+    id: BOOKING-SERVICE
+    v1:
+      api: /api/v1/booking-service
+      name: BOOKING-SERVICE_V1
+
+  payment-service:
+    id: PAYMENT-SERVICE
+    v1:
+      api: /api/v1/payment-service
+      name: PAYMENT-SERVICE_V1
+
+  organization-pay:
+    id: ORGANIZATION-PAY-SERVICE
+    v1:
+      api: /api/v1/organizationpay
+      name: ORGANIZATION-PAY-SERVICE_V1
+
+  room-service:
+    id: ROOM-SERVICE
+    v1:
+      api: /api/v1/room-service
+      name: ROOM-SERVICE_V1
+
+  organization-service:
+    id: ORGANIZATION-SERVICE
+    v1:
+      api: /api/v1/organization-service
+      name: ORGANIZATION-SERVICE_V1
+
+spring:
+  application:
+    name: BOOKING-SERVICE
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/myroom
+    username: root
+    password: pawankumar
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    advertised:
+      host:
+        name: localhost
+
+# Eureka Configuration
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

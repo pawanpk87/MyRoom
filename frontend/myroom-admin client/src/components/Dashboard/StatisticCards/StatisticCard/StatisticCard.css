@@ -1,0 +1,57 @@
+.statisticCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 35%;
+  height: fit-content;
+  padding: 15px;
+  border-radius: 5px;
+  background: white;
+  border: 0.5px solid rgb(215, 215, 215);
+}
+
+.statisticCardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.statisticCard .statisticCardHeader .title {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.statisticCard .statisticCardHeader .numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: x-large;
+}
+
+.statisticCard .statisticCardNumbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.statisticCard .statisticCardNumbers .numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.numberCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.numberCard .title {
+  font-size: small;
+  font-weight: 200;
+  color: rgb(158, 155, 155);
+}

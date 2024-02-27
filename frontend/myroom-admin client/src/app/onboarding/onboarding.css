@@ -1,0 +1,27 @@
+.onboardingDivMain {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+  background: #eff1f3;
+  position: relative;
+  padding: 20px;
+}
+
+.onboardingDivMain .content {
+  width: 60%;
+  background: white;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.onboardingDivMain .content .header {
+  margin: 20px 0px 20px 0px;
+}
+
+.loadingIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}

@@ -1,0 +1,162 @@
+.roomdata {
+  width: 80%;
+  height: 100vh;
+  overflow-x: scroll;
+  padding: 100px 50px 10px 50px;
+  margin: auto;
+  border-radius: 10px;
+  background: white;
+}
+
+.roomdata .roomdata_header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  height: 400px;
+}
+
+.roomdata .roomdata_header .img {
+  flex: 1;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.roomdata .roomdata_header > .details {
+  flex: 1;
+  height: 100%;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.roomdata .roomdata_header > .details .city {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.roomdata .roomdata_header > .details .id {
+  font-size: small;
+  font-weight: 300;
+  color: rgb(194, 194, 194);
+}
+
+.roomdata .roomdata_header > .details .title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.roomdata .roomdata_header > .details .action {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: auto;
+}
+
+.roomdata .description {
+  position: relative;
+  display: grid;
+  grid-template-columns: 60% 38%;
+  gap: 2%;
+}
+
+.roomdata .description .d1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.roomdata .description .d2 {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  height: fit-content;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+  border-radius: 10px;
+}
+
+.roomdata .description .d2 .cost {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.roomdata .description .d2 .dates {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border: 0.5px solid gainsboro;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.roomdata .description .d2 .priceDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border: 0.5px solid gainsboro;
+}
+
+.roomdata .description .d2 .priceDetails .priceDetails_header {
+  font-size: large;
+  font-weight: bold;
+}
+
+.roomdata .description .d2 .priceDetails .prices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.roomdata .description .d2 .priceDetails .prices .item_prices {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.roomdata .description .d2 .guests {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border: 0.5px solid gainsboro;
+  cursor: pointer;
+}
+
+.roomdata .description .d2 .guests .guests_details {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.roomdata .description .d2 .guests .guests_header {
+  font-size: large;
+  font-weight: bold;
+}
+
+.description_card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.description_card .description_title {
+  font-size: large;
+  font-weight: bold;
+}

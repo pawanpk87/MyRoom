@@ -62,4 +62,4 @@ MyRoom is a Hotel management web application.
 
 Pawan Kumar Mehta - arowpk@gmail.com
 
-Project Link: [https://github.com/pawanpk87/myShop-Ecommerce-website](https://github.com/pawanpk87/MyRoom)
+Project Link: [https://github.com/pawanpk87/MyRoom](https://github.com/pawanpk87/MyRoom)

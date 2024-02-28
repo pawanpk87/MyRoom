@@ -1,4 +1,4 @@
-## How to run organization-server
+## How to run organization-pay service
 1. Create Stripe account [https://console.firebase.google.com/](https://console.firebase.google.com/).
 
 2. Update the secret-key in application.yml. (Get the secret-key from here) [https://dashboard.stripe.com/test/apikeys](https://dashboard.stripe.com/test/apikeys)

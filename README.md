@@ -1,10 +1,10 @@
 ## :star2: About the Project
 MyRoom is a Hotel management web application.
 
+# 🛠️ High Level Design
+![Screenshot 2024-08-02 122824](https://github.com/user-attachments/assets/26f7e20a-773f-4907-a274-400195f6f520)
 
 https://github.com/pawanpk87/MyRoom/assets/87040096/ad4b4ebe-26a0-4051-b3dc-e6080c69d7d5
-
-
 
 <!-- Screenshots -->
 
